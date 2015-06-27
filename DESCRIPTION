@@ -1,11 +1,23 @@
 Package: evalIRamt
 Type: Package
-Title: Tool for collecting relevance judgments.
+Title: Tool for Collecting Relevance Judgments
 Version: 1.0
 Date: 2015-06-27
 Author: Praveen Chandar
-Maintainer: Praveen <pcr@udel.edu>
-Description: A library that makes positing of HITs to AMT easy (only triplet judgments currently).
-License: GPL (>= 2)
-Imports: Rcpp (>= 0.11.3), XML, plyr, testthat
-LinkingTo: Rcpp
+Maintainer: Praveen Chandar <pcr@udel.edu>
+Description: A library that makes positing of HITs to AMT easy
+  (only triplet judgments supported currently).
+License: GPL-2
+BugReports:https://github.com/semanticpc/evalIRamt/issues
+Depends:
+  R (>= 3.1),
+Imports:
+  Rcpp (>= 0.11.3),
+  XML,
+  plyr,
+  testthat,
+  methods
+Suggests:
+  Rcpp
+LazyData: true
+VignetteBuilder: knitr
