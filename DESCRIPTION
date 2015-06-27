@@ -7,5 +7,5 @@ Author: Praveen Chandar
 Maintainer: Praveen <pcr@udel.edu>
 Description: A library that makes positing of HITs to AMT easy (only triplet judgments currently).
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.11.3), XML, plyr
+Imports: Rcpp (>= 0.11.3), XML, plyr, testthat
 LinkingTo: Rcpp

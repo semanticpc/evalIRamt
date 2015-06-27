@@ -1,4 +1,4 @@
 library(testthat)
-library(evalIRAmt)
+library(evalIRamt)
 
-test_package("evalIRAmt")
+test_package("evalIRamt")
