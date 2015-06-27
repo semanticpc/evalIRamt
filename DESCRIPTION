@@ -1,6 +1,6 @@
 Package: evalIRamt
 Type: Package
-Title: Tool for obtaining relevance judgments.
+Title: Tool for collecting relevance judgments.
 Version: 1.0
 Date: 2015-06-27
 Author: Praveen Chandar
