@@ -4,20 +4,23 @@ Title: Tool for Collecting Relevance Judgments
 Version: 1.0
 Date: 2015-06-27
 Author: Praveen Chandar
+VignetteBuilder: knitr
+Enhances: sp
 Maintainer: Praveen Chandar <pcr@udel.edu>
 Description: A library that makes positing of HITs to AMT easy
   (only triplet judgments supported currently).
 License: GPL-2
 BugReports:https://github.com/semanticpc/evalIRamt/issues
 Depends:
-  R (>= 3.1),
+  R (>= 2.14)
 Imports:
   Rcpp (>= 0.11.3),
   XML,
   plyr,
+  knitr,
   testthat,
   methods
-Suggests:
+LinkingTo:
   Rcpp
 LazyData: true
 VignetteBuilder: knitr
