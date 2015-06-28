@@ -2,10 +2,11 @@
 #'
 #' @param filename path to the TREC XML topics file
 #' @return a list with the topics and subtopics
+#' @export
 #' @examples
-#' parseWebTopicDesc("trecFullTopics.xml")
+#' # There are a number of ways to modify the configuration of a request
+#' # * you can add directly to a request
 parseWebTopicDesc <- function(filename){
-  require(XML, quietly = T)
   doc <- xmlParse(filename)
   topics <- getNodeSet(doc, "//topic")
   process_TREC_topic <- function(t){

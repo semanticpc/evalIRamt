@@ -1,7 +1,7 @@
 Package: evalIRamt
 Type: Package
 Title: Tool for Collecting Relevance Judgments
-Version: 1.0
+Version: 0.0.1
 Date: 2015-06-27
 Author: Praveen Chandar
 VignetteBuilder: knitr
@@ -12,15 +12,12 @@ Description: A library that makes positing of HITs to AMT easy
 License: GPL-2
 BugReports:https://github.com/semanticpc/evalIRamt/issues
 Depends:
-  R (>= 2.14)
+  R (>= 3.1)
 Imports:
-  Rcpp (>= 0.11.3),
-  XML,
+  XML (>= 3.98),
   plyr,
   knitr,
   testthat,
   methods
-LinkingTo:
-  Rcpp
 LazyData: true
 VignetteBuilder: knitr
